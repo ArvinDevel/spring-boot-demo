@@ -24,3 +24,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file complete/pom.xml
+    - run: | 
+        echo "test echo with |"
