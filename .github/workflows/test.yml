@@ -29,4 +29,5 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - run: sh test/run.sh 
+    - run: echo "test echo without |"
   
