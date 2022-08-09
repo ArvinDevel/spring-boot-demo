@@ -10,10 +10,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"com.example.mybatis"})
 @MapperScan("com.example.mybatis.dao")
 public class RestServiceApplication {
-    // used to check default mybatis scanner effect
-//    public RestServiceApplication(AserMapper aserMapper) {
-//        System.out.println("initializing RestServiceApplication, aserMapper: " + aserMapper);
-//    }
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = SpringApplication.run(RestServiceApplication.class, args);
